@@ -23,11 +23,11 @@ function App() {
     }
     setLoading(false);
   };
-  
+
 
   return (
     <div className="App">
-      <h1>Recipe Suggestor</h1>
+      <h1>Clean Out - The Food Suggestor App</h1>
       <InputForm fetchRecipes={fetchRecipes} />
       {loading ? <p>Loading...</p> : <RecipeList recipes={recipes} />}
     </div>
